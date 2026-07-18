@@ -5,3 +5,9 @@ plugins {
 javaPlatform {
   allowDependencies()
 }
+
+dependencies {
+  constraints {
+    api(libs.jspecify)
+  }
+}
