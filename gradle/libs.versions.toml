@@ -1,0 +1,9 @@
+[versions]
+guava = "33.6.0-jre"
+
+[libraries]
+guava-bom = { module = "com.google.guava:guava-bom", version.ref = "guava" }
+guava = { module = "com.google.guava:guava" }
+
+[bundles]
+guava = ["guava"]
