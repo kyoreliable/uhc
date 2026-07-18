@@ -9,4 +9,4 @@ dependencyResolutionManagement {
   }
 }
 
-include("core")
+include("core", "bom")
