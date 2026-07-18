@@ -9,6 +9,8 @@ guava = { module = "com.google.guava:guava" }
 guice-bom = { module = "com.google.inject:guice-bom", version.ref = "guice" }
 guice = { module = "com.google.inject:guice" }
 
+jspecify = "org.jspecify:jspecify:1.0.0"
+
 [bundles]
 guava = ["guava"]
 guice = ["guice"]
