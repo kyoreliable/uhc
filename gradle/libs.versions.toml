@@ -1,9 +1,14 @@
 [versions]
 guava = "33.6.0-jre"
+guice = "7.0.0"
 
 [libraries]
 guava-bom = { module = "com.google.guava:guava-bom", version.ref = "guava" }
 guava = { module = "com.google.guava:guava" }
 
+guice-bom = { module = "com.google.inject:guice-bom", version.ref = "guice" }
+guice = { module = "com.google.inject:guice" }
+
 [bundles]
 guava = ["guava"]
+guice = ["guice"]
