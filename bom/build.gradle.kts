@@ -7,7 +7,5 @@ javaPlatform {
 }
 
 dependencies {
-  constraints {
-    api(libs.jspecify)
-  }
+  constraints {}
 }
