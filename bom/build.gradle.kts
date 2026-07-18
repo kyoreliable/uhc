@@ -7,5 +7,9 @@ javaPlatform {
 }
 
 dependencies {
-  constraints {}
+  constraints {
+    sequenceOf(":core").forEach {
+      api(project(it))
+    }
+  }
 }
