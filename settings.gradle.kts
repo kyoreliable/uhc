@@ -9,4 +9,4 @@ dependencyResolutionManagement {
   }
 }
 
-include("core", "extension:adventure", "bom", "plugin")
+include("core", "extension:adventure", "extension:command:cloud", "bom", "plugin")
