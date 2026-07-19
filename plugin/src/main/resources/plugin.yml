@@ -1,4 +1,6 @@
 name: 'UHC'
 version: '${project.version}'
 description: '${project.description}'
+authors:
+  - 'kyoreliable'
 main: com.github.kyoreliable.uhc.UltraHardcorePlugin
