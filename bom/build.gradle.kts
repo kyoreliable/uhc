@@ -8,7 +8,7 @@ javaPlatform {
 
 dependencies {
   constraints {
-    sequenceOf(":core").forEach {
+    sequenceOf(":core", ":extension:adventure").forEach {
       api(project(it))
     }
   }
