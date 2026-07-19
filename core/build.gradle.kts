@@ -6,8 +6,8 @@ dependencies {
   api(platform(project(":bom")))
 
   api(platform(libs.guava.bom))
-  api(libs.bundles.guava)
+  compileOnlyApi(libs.bundles.guava)
 
   api(platform(libs.guice.bom))
-  api(libs.bundles.guice)
+  compileOnlyApi(libs.bundles.guice)
 }
