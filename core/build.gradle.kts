@@ -10,4 +10,6 @@ dependencies {
 
   api(platform(libs.guice.bom))
   compileOnlyApi(libs.bundles.guice)
+
+  compileOnlyApi(libs.jspecify)
 }
