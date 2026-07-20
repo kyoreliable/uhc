@@ -12,4 +12,5 @@ dependencies {
   compileOnlyApi(libs.bundles.guice)
 
   compileOnlyApi(libs.jspecify)
+  compileOnlyApi(libs.dominion.ecs.engine)
 }
