@@ -3,8 +3,6 @@ plugins {
 }
 
 dependencies {
-  api(platform(project(":bom")))
-
   api(platform(libs.guava.bom))
   compileOnlyApi(libs.bundles.guava)
 
