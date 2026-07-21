@@ -9,6 +9,7 @@ dependencies {
   api(platform(libs.guice.bom))
   compileOnlyApi(libs.bundles.guice)
 
+  compileOnlyApi(libs.fastutil)
   compileOnlyApi(libs.jspecify)
 
   compileOnlyApi(libs.spigot.api) {
