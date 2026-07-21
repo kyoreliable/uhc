@@ -10,5 +10,12 @@ dependencies {
   compileOnlyApi(libs.bundles.guice)
 
   compileOnlyApi(libs.jspecify)
+
+  compileOnlyApi(libs.spigot.api) {
+    exclude("commons-lang", "commons-lang")
+    exclude("com.google.code.gson", "gson")
+    exclude("org.yaml", "snakeyaml")
+  }
+
   compileOnlyApi(libs.dominion.ecs.engine)
 }
