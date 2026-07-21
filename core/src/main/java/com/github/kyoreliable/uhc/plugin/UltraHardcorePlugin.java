@@ -1,4 +1,4 @@
-package com.github.kyoreliable.uhc;
+package com.github.kyoreliable.uhc.plugin;
 
 import static java.lang.annotation.ElementType.FIELD;
 import static java.lang.annotation.ElementType.PARAMETER;
