@@ -6,6 +6,7 @@ dependencyResolutionManagement {
 
   repositories {
     mavenCentral()
+
     maven("https://hub.spigotmc.org/nexus/content/repositories/public/")
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
   }
