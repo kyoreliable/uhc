@@ -13,6 +13,7 @@ public final class DominionSchedulerGuiceModule extends AbstractModule {
 
   @Provides
   @Singleton
+  @UltraHardcoreDominionScheduler
   public Scheduler provideScheduler(final @UltraHardcoreDominion Dominion dominion) {
     return dominion.createScheduler();
   }
