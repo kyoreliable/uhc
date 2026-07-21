@@ -2,10 +2,6 @@ plugins {
   `java-platform`
 }
 
-javaPlatform {
-  allowDependencies()
-}
-
 dependencies {
   constraints {
     sequenceOf(":core", ":extension:adventure", ":extension:command:cloud").forEach {
