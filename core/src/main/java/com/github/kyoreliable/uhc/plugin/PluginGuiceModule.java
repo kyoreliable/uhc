@@ -1,15 +1,15 @@
-package com.github.kyoreliable.uhc;
+package com.github.kyoreliable.uhc.plugin;
 
 import com.google.inject.AbstractModule;
 import org.bukkit.plugin.Plugin;
 import org.jspecify.annotations.NullMarked;
 
 @NullMarked
-public final class UltraHardcoreGuiceModule extends AbstractModule {
+public final class PluginGuiceModule extends AbstractModule {
 
   private final Plugin plugin;
 
-  public UltraHardcoreGuiceModule(final Plugin plugin) {
+  public PluginGuiceModule(final Plugin plugin) {
     this.plugin = plugin;
   }
 
