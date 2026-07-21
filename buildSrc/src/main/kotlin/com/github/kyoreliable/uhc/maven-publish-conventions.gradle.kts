@@ -1,3 +1,5 @@
+package com.github.kyoreliable.uhc
+
 plugins {
   `maven-publish`
 }
