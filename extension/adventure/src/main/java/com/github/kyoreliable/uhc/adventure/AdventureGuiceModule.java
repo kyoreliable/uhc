@@ -1,4 +1,4 @@
-package com.github.kyoreliable.uhc;
+package com.github.kyoreliable.uhc.adventure;
 
 import com.google.inject.AbstractModule;
 
